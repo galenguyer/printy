@@ -1,6 +1,6 @@
 [package]
 name = "printy"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Galen Guyer <galen@galenguyer.com>"]
 edition = "2018"
 license = "MIT"
@@ -10,3 +10,5 @@ description = "Print things prettily"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+clap = "2.33.3"
+term = "0.6.1"
